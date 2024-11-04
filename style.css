@@ -5,16 +5,16 @@
 .center {
     margin: auto;
     width: 75%;
-    border: 2px solid #ff6f00; /* حدود برتقالية داكنة */
+    border: 2px solid #1565c0; /* حدود زرقاء داكنة */
     padding: 10px;
-    background-color: #ffcc80; /* خلفية برتقالية فاتحة */
+    background-color: #bbdefb; /* خلفية زرقاء فاتحة */
 }
 
 .centerBorderless {
     margin: auto;
     width: 75%;
     padding: 10px;
-    background-color: #ffe0b2; /* خلفية برتقالية خفيفة */
+    background-color: #e3f2fd; /* خلفية زرقاء خفيفة */
 }
 
 .centerImage {
@@ -24,8 +24,8 @@
     margin-right: auto;
     display: block;
     width: 500px;
-    border: 1px solid #ff8f00; /* حدود برتقالية فاتحة */
-    background-color: #ffebcc; /* خلفية برتقالية خفيفة جدًا */
+    border: 1px solid #42a5f5; /* حدود زرقاء فاتحة */
+    background-color: #e1f5fe; /* خلفية زرقاء خفيفة جدًا */
 }
 
 .centerCanvasMedium {
@@ -35,8 +35,8 @@
     margin-right: auto;
     display: block;
     width: 500px;
-    border: 1px solid #ff6f00; /* حدود برتقالية داكنة */
-    background-color: #ffcc80; /* خلفية برتقالية فاتحة */
+    border: 1px solid #1565c0; /* حدود زرقاء داكنة */
+    background-color: #bbdefb; /* خلفية زرقاء فاتحة */
 }
 
 .centerCanvasLarge {
@@ -46,8 +46,8 @@
     margin-right: auto;
     display: block;
     width: 800px;
-    border: 1px solid #ff6f00; /* حدود برتقالية داكنة */
-    background-color: #ffcc80; /* خلفية برتقالية فاتحة */
+    border: 1px solid #1565c0; /* حدود زرقاء داكنة */
+    background-color: #bbdefb; /* خلفية زرقاء فاتحة */
 }
 
 textarea {
@@ -56,9 +56,9 @@ textarea {
     margin-right: auto;
     width: 90%; /* عرض نص متعدد الأسطر */
     padding: 8px;
-    border: 1px solid #ff8f00; /* حدود برتقالية فاتحة */
-    background-color: #fff3e0; /* خلفية برتقالية خفيفة */
-    color: #d84315; /* لون النص برتقالي غامق */
+    border: 1px solid #42a5f5; /* حدود زرقاء فاتحة */
+    background-color: #e3f2fd; /* خلفية زرقاء خفيفة */
+    color: #0d47a1; /* لون النص أزرق غامق */
     border-radius: 4px; /* زوايا مدورة */
     resize: vertical; /* يسمح بتغيير حجم الـ textarea عموديًا فقط */
 }

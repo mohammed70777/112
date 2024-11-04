@@ -5,16 +5,16 @@
 .center {
     margin: auto;
     width: 75%;
-    border: 2px solid #1565c0; /* حدود زرقاء داكنة */
+    border: 2px solid #6a1b9a; /* حدود بنفسجي داكن */
     padding: 10px;
-    background-color: #bbdefb; /* خلفية زرقاء فاتحة */
+    background: linear-gradient(135deg, #ce93d8, #ba68c8); /* خلفية بتدرج بنفسجي فاتح */
 }
 
 .centerBorderless {
     margin: auto;
     width: 75%;
     padding: 10px;
-    background-color: #e3f2fd; /* خلفية زرقاء خفيفة */
+    background: linear-gradient(135deg, #e1bee7, #d1c4e9); /* خلفية بتدرج بنفسجي خفيف */
 }
 
 .centerImage {
@@ -24,8 +24,8 @@
     margin-right: auto;
     display: block;
     width: 500px;
-    border: 1px solid #42a5f5; /* حدود زرقاء فاتحة */
-    background-color: #e1f5fe; /* خلفية زرقاء خفيفة جدًا */
+    border: 1px solid #8e24aa; /* حدود بنفسجي متوسط */
+    background: linear-gradient(135deg, #f3e5f5, #e1bee7); /* خلفية بتدرج بنفسجي فاتح جدًا */
 }
 
 .centerCanvasMedium {
@@ -35,8 +35,8 @@
     margin-right: auto;
     display: block;
     width: 500px;
-    border: 1px solid #1565c0; /* حدود زرقاء داكنة */
-    background-color: #bbdefb; /* خلفية زرقاء فاتحة */
+    border: 1px solid #6a1b9a; /* حدود بنفسجي داكن */
+    background: linear-gradient(135deg, #ce93d8, #ba68c8); /* خلفية بتدرج بنفسجي فاتح */
 }
 
 .centerCanvasLarge {
@@ -46,8 +46,8 @@
     margin-right: auto;
     display: block;
     width: 800px;
-    border: 1px solid #1565c0; /* حدود زرقاء داكنة */
-    background-color: #bbdefb; /* خلفية زرقاء فاتحة */
+    border: 1px solid #6a1b9a; /* حدود بنفسجي داكن */
+    background: linear-gradient(135deg, #ce93d8, #ba68c8); /* خلفية بتدرج بنفسجي فاتح */
 }
 
 textarea {
@@ -56,9 +56,9 @@ textarea {
     margin-right: auto;
     width: 90%; /* عرض نص متعدد الأسطر */
     padding: 8px;
-    border: 1px solid #42a5f5; /* حدود زرقاء فاتحة */
-    background-color: #e3f2fd; /* خلفية زرقاء خفيفة */
-    color: #0d47a1; /* لون النص أزرق غامق */
+    border: 1px solid #8e24aa; /* حدود بنفسجي متوسط */
+    background: linear-gradient(135deg, #f3e5f5, #e1bee7); /* خلفية بتدرج بنفسجي فاتح */
+    color: #4a148c; /* لون النص بنفسجي غامق */
     border-radius: 4px; /* زوايا مدورة */
     resize: vertical; /* يسمح بتغيير حجم الـ textarea عموديًا فقط */
 }

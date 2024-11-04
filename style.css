@@ -5,60 +5,45 @@
 .center {
     margin: auto;
     width: 75%;
-    border: 2px solid #6a1b9a; /* حدود بنفسجي داكن */
+    border: 3px solid lightgray;
     padding: 10px;
-    background: linear-gradient(135deg, #ce93d8, #ba68c8); /* خلفية بتدرج بنفسجي فاتح */
 }
 
 .centerBorderless {
     margin: auto;
     width: 75%;
     padding: 10px;
-    background: linear-gradient(135deg, #e1bee7, #d1c4e9); /* خلفية بتدرج بنفسجي خفيف */
 }
 
-.centerImage {
+.centerImage{
     padding-left: 0;
     padding-right: 0;
     margin-left: auto;
     margin-right: auto;
     display: block;
     width: 500px;
-    border: 1px solid #8e24aa; /* حدود بنفسجي متوسط */
-    background: linear-gradient(135deg, #f3e5f5, #e1bee7); /* خلفية بتدرج بنفسجي فاتح جدًا */
 }
 
 .centerCanvasMedium {
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    width: 500px;
-    border: 1px solid #6a1b9a; /* حدود بنفسجي داكن */
-    background: linear-gradient(135deg, #ce93d8, #ba68c8); /* خلفية بتدرج بنفسجي فاتح */
+padding-left: 0;
+padding-right: 0;
+margin-left: auto;
+margin-right: auto;
+display: block;
+width: 500px;
 }
 
 .centerCanvasLarge {
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    width: 800px;
-    border: 1px solid #6a1b9a; /* حدود بنفسجي داكن */
-    background: linear-gradient(135deg, #ce93d8, #ba68c8); /* خلفية بتدرج بنفسجي فاتح */
+padding-left: 0;
+padding-right: 0;
+margin-left: auto;
+margin-right: auto;
+display: block;
+width: 800px;
 }
 
 textarea {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%; /* عرض نص متعدد الأسطر */
-    padding: 8px;
-    border: 1px solid #8e24aa; /* حدود بنفسجي متوسط */
-    background: linear-gradient(135deg, #f3e5f5, #e1bee7); /* خلفية بتدرج بنفسجي فاتح */
-    color: #4a148c; /* لون النص بنفسجي غامق */
-    border-radius: 4px; /* زوايا مدورة */
-    resize: vertical; /* يسمح بتغيير حجم الـ textarea عموديًا فقط */
 }

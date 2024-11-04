@@ -5,16 +5,16 @@
 .center {
     margin: auto;
     width: 75%;
-    border: 2px solid #e0e0e0; /* لون رمادي فاتح للحدود */
+    border: 2px solid #ff6f00; /* حدود برتقالية داكنة */
     padding: 10px;
-    background-color: #f9f9f9; /* خلفية رمادية خفيفة */
+    background-color: #ffcc80; /* خلفية برتقالية فاتحة */
 }
 
 .centerBorderless {
     margin: auto;
     width: 75%;
     padding: 10px;
-    background-color: #ffffff; /* خلفية بيضاء */
+    background-color: #ffe0b2; /* خلفية برتقالية خفيفة */
 }
 
 .centerImage {
@@ -24,8 +24,8 @@
     margin-right: auto;
     display: block;
     width: 500px;
-    border: 1px solid #ddd; /* حدود خفيفة حول الصورة */
-    background-color: #fafafa; /* خلفية فاتحة جدًا */
+    border: 1px solid #ff8f00; /* حدود برتقالية فاتحة */
+    background-color: #ffebcc; /* خلفية برتقالية خفيفة جدًا */
 }
 
 .centerCanvasMedium {
@@ -35,8 +35,8 @@
     margin-right: auto;
     display: block;
     width: 500px;
-    border: 1px solid #ccc; /* حدود رمادية حول الـ canvas */
-    background-color: #ffffff; /* خلفية بيضاء */
+    border: 1px solid #ff6f00; /* حدود برتقالية داكنة */
+    background-color: #ffcc80; /* خلفية برتقالية فاتحة */
 }
 
 .centerCanvasLarge {
@@ -46,19 +46,19 @@
     margin-right: auto;
     display: block;
     width: 800px;
-    border: 1px solid #ccc; /* حدود رمادية حول الـ canvas */
-    background-color: #ffffff; /* خلفية بيضاء */
+    border: 1px solid #ff6f00; /* حدود برتقالية داكنة */
+    background-color: #ffcc80; /* خلفية برتقالية فاتحة */
 }
 
 textarea {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid #ddd; /* حدود خفيفة */
-    background-color: #f5f5f5; /* خلفية رمادية خفيفة */
-    color: #333; /* لون النص داكن */
+    width: 90%; /* عرض نص متعدد الأسطر */
     padding: 8px;
+    border: 1px solid #ff8f00; /* حدود برتقالية فاتحة */
+    background-color: #fff3e0; /* خلفية برتقالية خفيفة */
+    color: #d84315; /* لون النص برتقالي غامق */
     border-radius: 4px; /* زوايا مدورة */
-    width: 90%;
     resize: vertical; /* يسمح بتغيير حجم الـ textarea عموديًا فقط */
 }

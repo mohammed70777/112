@@ -5,45 +5,60 @@
 .center {
     margin: auto;
     width: 75%;
-    border: 3px solid lightgray;
+    border: 3px solid #6a1b9a; /* حدود بنفسجي داكن */
     padding: 10px;
+    background: linear-gradient(135deg, #d1c4e9, #ce93d8); /* خلفية بتدرج بنفسجي */
 }
 
 .centerBorderless {
     margin: auto;
     width: 75%;
     padding: 10px;
+    background: linear-gradient(135deg, #f3e5f5, #e1bee7); /* خلفية بتدرج بنفسجي فاتح */
 }
 
-.centerImage{
+.centerImage {
     padding-left: 0;
     padding-right: 0;
     margin-left: auto;
     margin-right: auto;
     display: block;
     width: 500px;
+    border: 2px solid #8e24aa; /* حدود بنفسجي متوسط */
+    background: linear-gradient(135deg, #f8bbd0, #e1bee7); /* خلفية بتدرج بنفسجي خفيف جدًا */
 }
 
 .centerCanvasMedium {
-padding-left: 0;
-padding-right: 0;
-margin-left: auto;
-margin-right: auto;
-display: block;
-width: 500px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 500px;
+    border: 2px solid #7b1fa2; /* حدود بنفسجي */
+    background: linear-gradient(135deg, #d1c4e9, #ba68c8); /* خلفية بتدرج بنفسجي */
 }
 
 .centerCanvasLarge {
-padding-left: 0;
-padding-right: 0;
-margin-left: auto;
-margin-right: auto;
-display: block;
-width: 800px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 800px;
+    border: 2px solid #4a148c; /* حدود بنفسجي داكن جدًا */
+    background: linear-gradient(135deg, #d1c4e9, #ce93d8); /* خلفية بتدرج بنفسجي */
 }
 
 textarea {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 90%; /* عرض نص متعدد الأسطر */
+    padding: 8px;
+    border: 1px solid #7b1fa2; /* حدود بنفسجي متوسط */
+    background: linear-gradient(135deg, #f3e5f5, #e1bee7); /* خلفية بتدرج بنفسجي فاتح */
+    color: #4a148c; /* لون النص بنفسجي داكن */
+    border-radius: 4px; /* زوايا مدورة */
+    resize: vertical; /* يسمح بتغيير حجم الـ textarea عموديًا فقط */
 }

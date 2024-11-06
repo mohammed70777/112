@@ -24,7 +24,7 @@
     margin-right: auto;
     display: block;
     width: 500px;
-    border: 2px solid #ffff00; /* حدود بنفسجي متوسط */
+    border: 20px solid #ffff00; /* حدود بنفسجي متوسط */
     background: linear-gradient(135deg, #f8bbd0, #e1bee7); /* خلفية بتدرج بنفسجي خفيف جدًا */
 }
 

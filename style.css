@@ -56,9 +56,9 @@ textarea {
     margin-right: auto;
     width: 90%; /* عرض نص متعدد الأسطر */
     padding: 8px;
-    border: 1px solid #7b1fa2; /* حدود بنفسجي متوسط */
+    border: 1px solid #ffffff; /* حدود بنفسجي متوسط */
     background: linear-gradient(135deg, #f3e5f5, #e1bee7); /* خلفية بتدرج بنفسجي فاتح */
-    color: #ffff00; /* لون النص بنفسجي داكن */
+    color: #000000; /* لون النص الارقام اسود */
     border-radius: 4px; /* زوايا مدورة */
     resize: vertical; /* يسمح بتغيير حجم الـ textarea عموديًا فقط */
 }

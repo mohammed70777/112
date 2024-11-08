@@ -236,9 +236,15 @@ function NonBlockingCalculatePins(){
 
     (function codeBlock(){
         if(i < N_PINS){
-            angle = 2 * Math.PI * i / N_PINS;
-            pin_coords.push([Math.floor(center + radius * Math.cos(angle)),
-                Math.floor(center + radius * Math.sin(angle))]);
+          let rows = Math.sqrt(N_PINS);
+let cols = Math.sqrt(N_PINS);
+let pinSpacing = (IMG_SIZE - 2 * radius) / (rows - 1);
+
+for (let i = 0; i < rows; i++) {
+    for (let j = 0; j < cols; j++) {
+        let x = center - radius + j * pinSpacing;
+        let y = center - radius + i * pinSpacing;
+        pin_coords.push([Math.floor(x), Math.floor(y)]);
             i++;
             setTimeout(codeBlock, 0);
         } else {
